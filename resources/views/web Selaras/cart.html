@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Selaras - Cart</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/faviconn.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <h1><a href="index.html">Selaras</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="team.html">Avaible on</a></li>
+            <li><a href="contact.html">Address</a></li>
+            <li><a class="active" href="cart.html">Cart</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <h2>Cart</h2>
+      </div>
+    </section>
+    <!-- End Breadcrumbs -->
+
+    <div class="container">
+      <section class="py-5">
+        <div class="row">
+          <div class="col-lg-8 mb-4 mb-lg-0">
+            <!-- CART TABLE-->
+            <div class="table-responsive mb-4">
+              <table class="table text-nowrap">
+                <thead class="bg-light">
+                  <tr>
+                    <th class="border-0 p-3" scope="col">
+                      <strong class="text-sm text-uppercase">Product</strong>
+                    </th>
+                    <th class="border-0 p-3" scope="col">
+                      <strong class="text-sm text-uppercase">Price</strong>
+                    </th>
+                    <th class="border-0 p-3" scope="col">
+                      <strong class="text-sm text-uppercase">Quantity</strong>
+                    </th>
+                    <th class="border-0 p-3" scope="col">
+                      <strong class="text-sm text-uppercase">Total</strong>
+                    </th>
+                    <th class="border-0 p-3" scope="col">
+                      <strong class="text-sm text-uppercase"></strong>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="border-0">
+                  <tr>
+                    <th class="ps-0 py-3 border-light" scope="row">
+                      <div class="d-flex align-items-center">
+                        <a
+                          ><img
+                            src="img/product-detail-3.jpg"
+                            alt="..."
+                            width="70"
+                        /></a>
+                        <div class="ms-3">
+                          <strong class="h6"
+                            ><a>test</a></strong
+                          >
+                        </div>
+                      </div>
+                    </th>
+                    <td class="p-3 align-middle border-light">
+                      <p class="mb-0 small">Rp 250.000</p>
+                    </td>
+                    <td
+                      class="p-3 align-middle border-light"
+                      style="display: flex; align-items: center"
+                    >
+                      <span class="input-group-btn" style="margin-right: 10px">
+                        <button
+                          type="button"
+                          class="quantity-left-minus btn btn-danger bi bi-dash-lg"
+                          data-type="minus"
+                          data-field=""
+                        >
+                          <span class="glyphicon glyphicon-minus"></span>
+                        </button>
+                      </span>
+                      <input
+                        type="text"
+                        id="quantity"
+                        name="quantity"
+                        class="form-control input-number"
+                        value="1"
+                        min="1"
+                        max="100"
+                        style="flex: 1; width:45px;"
+                      />
+                      <span class="input-group-btn" style="margin-left: 10px">
+                        <button
+                          type="button"
+                          class="quantity-right-plus btn btn-success bi bi-plus"
+                          data-type="plus"
+                          data-field=""
+                        >
+                          <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                      </span>
+                    </td>
+                    <td class="p-3 align-middle border-light">
+                      <p class="mb-0 small">Rp250.000</p>
+                    </td>
+                    <td class="p-3 align-middle border-light">
+                      <a class="reset-anchor" href="#!"
+                        ><i class="fas fa-trash-alt small text-muted"></i
+                      ></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="ps-0 py-3 border-0" scope="row">
+                      <div class="d-flex align-items-center">
+                        <a
+                          ><img
+                            src="img/product-detail-2.jpg"
+                            alt="..."
+                            width="70"
+                        /></a>
+                        <div class="ms-3">
+                          <strong class="h6"><a>test</a></strong>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="p-3 align-middle border-0">
+                      <p class="mb-0 small">Rp250.000</p>
+                    </td>
+                    <td
+                      class="p-3 align-middle border-light"
+                      style="display: flex; align-items: center"
+                    >
+                      <span class="input-group-btn" style="margin-right: 10px">
+                        <button
+                          type="button"
+                          class="quantity-left-minus btn btn-danger bi bi-dash-lg"
+                          data-type="minus"
+                          data-field=""
+                        >
+                          <span class="glyphicon glyphicon-minus"></span>
+                        </button>
+                      </span>
+                      <input
+                        type="text"
+                        id="quantity"
+                        name="quantity"
+                        class="form-control input-number"
+                        value="1"
+                        min="1"
+                        max="100"
+                        style="flex: 1"
+                      />
+                      <span class="input-group-btn" style="margin-left: 10px">
+                        <button
+                          type="button"
+                          class="quantity-right-plus btn btn-success bi bi-plus"
+                          data-type="plus"
+                          data-field=""
+                        >
+                          <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                      </span>
+                    </td>
+                    <td class="p-3 align-middle border-light">
+                      <p class="mb-0 small">Rp250.000</p>
+                    </td>
+                    <td class="p-3 align-middle border-light">
+                      <a class="reset-anchor" href="#!"
+                        ><i class="fas fa-trash-alt small text-muted"></i
+                      ></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          
+          <!-- ORDER TOTAL-->
+          <div class="col-lg-4">
+            <div class="card border-0 rounded-0 p-lg-4 bg-light">
+              <div class="card-body">
+                <h5 class="text-uppercase mb-4">Cart total</h5>
+                <ul class="list-unstyled mb-0">
+                  <li class="d-flex align-items-center justify-content-between">
+                    <strong class="text-uppercase small font-weight-bold"
+                      >Subtotal</strong
+                    ><span id="subtotal" class="text-muted small">Rp0</span>
+                  </li>
+                  <li class="border-bottom my-2"></li>
+                  <li
+                    class="d-flex align-items-center justify-content-between mb-4"
+                  >
+                    <strong class="text-uppercase small font-weight-bold"
+                      >Total</strong
+                    ><span id="total">Rp0</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+<!-- CART NAV-->
+<div class="bg-light px-4 py-3">
+              <div class="row align-items-center text-center">
+                <div class="col-md-6 mb-3 mb-md-0 text-md-start">
+                  <a
+                    class="btn btn-link p-0 text-dark btn-sm"
+                    href="product.html"
+                    ><i class="fas fa-long-arrow-alt-left me-2"> </i>Continue
+                    shopping</a
+                  >
+                </div>
+                <div class="col-md-6 text-md-end">
+                  <a class="btn btn-outline-dark btn-sm" href="checkout.html"
+                    >Procceed to checkout<i
+                      class="fas fa-long-arrow-alt-right ms-2"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+        
+      </section>
+    </div>
+<!-- ======= Clients Section ======= -->
+<section id="clients" class="clients">
+  <div class="container">
+    <div class="section-title">
+      <h2>Available On</h2>
+      <p>Kami memasarkan bouquet buatan kami di</p>
+    </div>
+
+    <div class="clients-slider swiper">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide">
+          <img
+            src="assets/img/clients/client-1.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="assets/img/clients/client-2.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="assets/img/clients/client-3.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="assets/img/clients/client-1.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="assets/img/clients/client-2.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="assets/img/clients/client-3.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="assets/img/clients/client-1.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="assets/img/clients/client-2.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+<!-- End Clients Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+  </div>
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Selaras</span></strong
+      >. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/ -->
+    </div>
+  </div>
+</footer>
+  <!-- End Footer -->
+    
+    <!-- End Header -->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Ambil elemen yang diperlukan setelah halaman dimuat
+        const quantityInputs = document.querySelectorAll(".input-number");
+        const subtotalElement = document.getElementById("subtotal");
+        const totalElement = document.getElementById("total");
+    
+        // Fungsi untuk menghitung subtotal dan total
+        function calculateTotal() {
+          let subtotal = 0;
+    
+          // Loop melalui setiap baris produk
+          quantityInputs.forEach((input) => {
+            const quantity = parseInt(input.value);
+            const price = parseInt(input.closest("tr").querySelector(".price").innerText.replace("Rp", "").replace(".", ""));
+            const total = quantity * price;
+            subtotal += total;
+          });
+    
+          // Tampilkan subtotal dan total
+          subtotalElement.innerText = "Rp" + subtotal.toLocaleString();
+          totalElement.innerText = "Rp" + subtotal.toLocaleString();
+        }
+    
+        // Tambahkan event listener untuk setiap input kuantitas
+        quantityInputs.forEach((input) => {
+          input.addEventListener("input", calculateTotal);
+        });
+    
+        // Hitung total saat halaman dimuat
+        calculateTotal();
+      });
+    </script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
